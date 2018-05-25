@@ -2,8 +2,8 @@
 =================================
 
 The project is structured into two parts.
-    - Client
-    - Server
+Markup: * Client
+        * Server 
 
 
 ## Client
