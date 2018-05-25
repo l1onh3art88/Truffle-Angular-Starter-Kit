@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>Sign up</h1>
+  <form (ngSubmit)="signUp()" #signUpForm ="ngForm">
+    <div class="form-group">
+      <label for="name">Username</label>
+      <input name="username" [(ngModel)]="user.username" type="text" class="form-control" id="name" required>
+    </div>
+    <div class ="form-group">
+      <label for ="password">Password</label>
+      <input name="password" [(ngModel)]="user.password" type="password"class="form-control"id="password" required>
+    </div>
+
+
+    <button [disabled]="!signUpForm.form.valid" type="submit" class="btn btn-success">Submit</button>
+
+  </form>
+  <pre>{{user |json}}</pre>
+</div>
