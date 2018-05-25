@@ -43,9 +43,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ### Truffle
 Type `truffle compile` to compile contracts
 
-This project uses ganache to run a testrpc.
+This project can use ganache to run a testrpc.
 
-Open a new terminal and type `ganache-cli` to start a testrpc. 
+Open a new terminal and type `ganache-cli` to start a testrpc if you do not want to depend on metamask. 
 Take note of the seed phrase and private keys of accounts
 
 Type `truffle migrate` when the ganache server is up and running. 
